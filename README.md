@@ -75,7 +75,7 @@ x86_64-w64-mingw32-gcc -O2 -shared -s -static-libgcc -o dinput8.dll dinput8.c -W
 
 ## Credits
 
-The root-cause analysis and the `0x80` → `0x83` fix come from the Metro Last Light Redux CrossOver writeup. This project ports that fix to 2033 Redux and applies it at runtime because of SteamStub.
+The root-cause analysis and the `0x80` → `0x83` fix come from the Metro Last Light Redux CrossOver [writeup](https://www.reddit.com/r/macgaming/s/HeFA8XPTr6). This project ports that fix to 2033 Redux and applies it at runtime because of SteamStub.
 
 ## License
 
