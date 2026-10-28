@@ -22,6 +22,10 @@ This is the same bug and the same fix as the one found for Metro Last Light Redu
 
 ## Why a DLL instead of a hex edit
 
+```
+Note: if you have a DRM free version you can directly change the bytes in metro.exe
+```
+
 2033 Redux's `metro.exe` is wrapped in Steam's DRM (SteamStub), and all of its code is encrypted on disk. A hex editor can't find the bytes, and editing the encrypted bytes would just corrupt the exe.
 
 The DLL does the same one-byte change in memory, after the game has decrypted itself:
